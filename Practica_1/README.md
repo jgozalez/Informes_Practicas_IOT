@@ -45,6 +45,7 @@ Rcu_gp: Son bits dentro del Kernel de Linux.
 ### TCP 
 Servidor
 ![lsof](Imagenes_1/11.png)
+
 Cliente 
 ![lsof](Imagenes_1/12.png)
 
@@ -58,12 +59,13 @@ Con el comando lsof -i -P -n  se puede ver los puertos ocupados por el protocolo
 ### UDP
 Servidor
 ![lsof](Imagenes_1/15.png)
+
 Cliente 
 ![lsof](Imagenes_1/16.png)
 Se corre el servidor y luego el cliente 
 ![lsof](Imagenes_1/17.png)
 
-Con el comando lsof -i -P -n  se puede ver los puertos ocupados por el protocolo UDP, por ejemplo, python3 está corriendo por el puerto 10000 con un servicio que esta a la escucha con el protocolo UDP ipv4, el cual está abierto para que se pueda acceder desde cualquier instancia 
+Con el comando lsof -i -P -n  se puede ver los puertos ocupados por el protocolo UDP, por ejemplo, python3 está corriendo por el puerto 10000 con un servicio que esta a la escucha con el protocolo UDP ipv4, el cual está abierto para que se pueda acceder desde cualquier instancia. 
 ![lsof](Imagenes_1/18.png)
 
 Se puede decir que el protocolo UDP al prescindir de un sistema de verificación de ida y vuelta entre el dispositivo emisor y el dispositivo receptor, el protocolo UDP permite una velocidad de transferencia superior a la del protocolo TCP.
