@@ -37,7 +37,7 @@ Ahora utilizando los comandos ss, netstat y lsof para mirar que puertos y servic
 - Systemd: el objetivo de encargarse de arrancar todo lo que está por debajo del Kernel, permitiendo ejecutar varios procesos de manera simultánea.
 - Mm_percpu : asignador de memoria percpu
 Rcu_gp: Son bits dentro del Kernel de Linux.
-- Netns: gestión del espacio de nombres de la red de procesos
+- Netns: gestión del espacio de nombres de la red de procesos.
 - Kworker: es un proceso de marcador de posición para los subprocesos de trabajo del kernel, que realizan la mayor parte del procesamiento real para el kernel, especialmente en los casos en que hay interrupciones, temporizadores, E/S, etc. Por lo general, corresponden a la gran mayoría de cualquier asignación  "tiempo del sistema" para ejecutar procesos.
 
 ## 5. Evaluar scripts en Python: Al estudiante se le entregarán scripts en Python para desplegar un ejemplo de cliente servidor con protocolos TCP y UDP, el estudiante evaluará el rendimiento de los dos servicios y debe descubrir la ocupación de los puertos por medio de las herramientas previamente estudiadas.
